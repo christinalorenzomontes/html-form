@@ -1,0 +1,32 @@
+* {
+    background-color: #FCF3CF;
+    font-family: Georgia, serif;
+}
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+}
+input, 
+textarea {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 60%;
+    border: 1px solid black;
+}
+input::placeholder, 
+textarea::placeholder {
+    color: black;
+    font-size: 14px;
+}
+#submit {
+    background-color: darkred;
+    padding: 4px;
+    width: 40%;
+}

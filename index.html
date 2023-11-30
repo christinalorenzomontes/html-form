@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Form with HTML</title>
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
-<body>
-    
-</body>
+    <body>
+        <form 
+            target="_blank"
+            action="https://formsubmit.co/christinalorenzomontes@gmail.com"
+            method="POST"
+        >
+            <input placeholder="Full Name"  name="name" />
+            <input type="email" placeholder="Email Address" name="email" required />
+            <textarea placeholder="Your message" name="message"></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="submit" id="submit">
+        </form>
+    </body>
 </html>
