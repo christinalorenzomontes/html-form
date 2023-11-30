@@ -29,4 +29,5 @@ textarea::placeholder {
     background-color: darkred;
     padding: 4px;
     width: 40%;
+    color: white;
 }
